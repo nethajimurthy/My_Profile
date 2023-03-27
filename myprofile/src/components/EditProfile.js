@@ -94,13 +94,10 @@ const EditProfile = () => {
       });
     }
 
-    setnterval(async()=>{
-      console.log(newCred)
       await axios.post(`${URL}/updateimpcred`,{...sessionData,newCred})
       .then(()=>{
         console.log('changed')
       })
-    })
       
   };
 
