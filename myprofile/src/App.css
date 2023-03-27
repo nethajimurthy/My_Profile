@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54332.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.Header {
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(48, 50, 123);
+}
+
+.Header > h3 {
+  margin: 0px;
+  padding: 1rem;
+}

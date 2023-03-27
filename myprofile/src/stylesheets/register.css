@@ -1,0 +1,86 @@
+.Register{
+    width: auto;
+    max-width: 30%;
+    background-color: rgba(61, 36, 220, 0.25);
+    border-radius: 1rem;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    top: 8%;
+    left: 35%;
+    box-shadow: 0px 0px 3px 3px  rgb(47, 241, 255);
+    animation-name: fromtop;
+    animation-duration: 1s;
+}
+
+@keyframes fromtop {
+    0%{
+        top: 0px;
+        opacity: 0;
+    }
+}
+
+.Register > p {
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.Register > input, textarea {
+    border-radius: .30rem;
+    background-color: rgb(169, 184, 247);
+    border-color: rgb(21, 210, 50);
+    width: 70%;
+}
+
+.Register > button {
+    min-width: auto;
+    margin: 5%;
+    background-color: rgb(169, 184, 247);
+    height: 2rem;
+    width: 40%;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 3px 3px  rgb(47, 241, 255);
+}
+
+.Skillarea{
+    display: flex;
+    padding-left: 14%;
+}
+
+.Skillarea > input{
+    border-radius: .2rem;
+    background-color: rgb(169, 184, 247);
+    border-color: rgb(21, 210, 50);
+    width: 73%;
+}
+
+.SkillAdd {
+    background-color:rgb(86, 184, 151);
+    border-radius: .30rem;
+    width: 8%;
+    margin: 0px;
+}
+
+.Skillset {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 14%;
+    width: 80%;
+}
+
+.Skillset > ul{
+    background-color: aquamarine;
+    margin: 1%;
+    padding: 2px;
+    border-radius: .2rem;
+    border:1px solid black;
+}
+
+.SkillError{
+    color: rgb(133, 35, 35);
+}
+
+.Return{
+    margin-top: -4%;
+}

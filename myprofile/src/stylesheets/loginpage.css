@@ -1,0 +1,38 @@
+.LogIn{
+    width: auto;
+    max-width: 30%;
+    background-color: rgba(131, 241, 123, 0.5);
+    border-radius: 1rem;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    box-shadow: 0px 0px 3px 3px  rgb(47, 241, 255);
+    animation-name: fromtop;
+    animation-duration: 1s;
+}
+
+.LogIn > p {
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.LogIn > input {
+    border-radius: .30rem;
+    background-color: rgba(229, 27, 27,0.25);
+    border-color: rgb(21, 210, 50);
+    width: 70%;
+}
+
+.LogIn > button {
+    margin: 5%;
+    background-color: rgb(169, 184, 247);
+    height: 2rem;
+    width: 5rem;
+    border-radius: .5rem; 
+    box-shadow: 0px 0px 3px 3px  rgb(94, 220, 245);
+    color: rgb(9, 51, 7);
+}
+

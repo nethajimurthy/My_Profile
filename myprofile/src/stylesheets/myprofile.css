@@ -1,0 +1,148 @@
+.MyProfile{
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.ImageArea{
+    animation: fromleft 2s ease-in-out;
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50em;
+    margin-top: 6rem;
+    margin-right: 15vw;
+    position: relative;
+    animation: bounce 2s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes bounce {
+    0%{
+        top: 0rem;
+    }
+    50%{
+        top:-1.5rem
+    }
+    100%{
+        top: 0rem;
+    }
+}
+
+.UserDetails > h1, .UserDetails > h3,.UserDetails > p{
+    margin: 0px;
+}
+
+.UserDetails > h1 {
+    animation: fromleft 1.5s ease-in-out;
+}
+
+.UserDetails > h3{
+    animation: fromleft 2s ease-in-out;
+}
+
+.UserDetails > p{
+    animation: fromleft 2.5s ease-in-out;
+}
+
+@keyframes fromleft {
+    0%{
+        opacity: -1;
+        margin-right: 20rem;
+    }
+    100%{
+        margin-right: 0rem;
+    }
+}
+
+.TopArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.UserDetails{
+    display: block;
+    height: fit-content;
+    width: 35vw;
+    padding: 3vw;
+    position: relative;
+    top: 18vh;
+    text-align: right;
+    background-color: rgba(34, 30, 30,0.3);
+    box-shadow: 0px 0px 3px 3px  rgb(47, 241, 255);
+}
+
+.SkillsArea{
+    width: 90vw;
+    height: 30vh;
+    display: block;
+    background-color: rgba(0, 0, 0,0.5);
+    position: relative;
+    left: 4rem;
+    top: 3rem;
+    box-shadow: 0px 0px 3px 3px  rgb(47, 241, 255);
+}
+
+.SkillsArea > h2{
+    position: relative;
+    left: 5%;
+    top: 8%;
+    margin: 0px;
+    animation: fromtop 1s ease-in-out;
+}
+
+
+.Line{
+    display: block;
+    width: 85%;
+    height: 0.2rem;
+    background-color: aquamarine;
+    margin-left: 1rem;
+    animation: fromleft 1s ease-in-out;
+}
+
+@keyframes fromtop {
+    0%{
+        top:-2rem
+    }
+    100%{
+        top: 8%;
+    }
+}
+.SkillList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SkillList > ul {
+    height: 2rem;
+    min-width: 4rem;
+    background-color: aquamarine;
+    margin: 1rem;
+    padding: 0px;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+.SkillList > ul >h3 {
+    margin: auto;
+    color: blue;
+}
+
+.MyProfile > button {
+    background-color: rgb(143, 74, 74);
+    height: 2rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2px 2px rgb(237, 56, 56);
+}
